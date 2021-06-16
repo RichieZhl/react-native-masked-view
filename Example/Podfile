@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'react-native-masked-view_Example' do
+  pod 'react-native-masked-view', :path => '../'
+
+  target 'react-native-masked-view_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
